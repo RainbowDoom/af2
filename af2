@@ -1,22 +1,9 @@
-local gameid = game.PlaceId
+for i = 3,14 do
+        local args = {
+            [1] = "Soldier",
+            [2] = CFrame.new(237.33082580566406, 4.5800018310546875, 3.780231475830078) * CFrame.Angles(-0, 0, -0),
+            [3] = "\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164",
+            [4] = 45528
+        }
 
-if(gameid == 17069479061) then
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RainbowDoom/af1/main/Af1",true))();
-
-else
-
-
-    game.ReplocatedStorage.RemoteEvent.OnServerEvent:Connect(function(plr, typeOf)
-
-        for i = 3,13 do
-            local args = {
-                [1] = "Soldier",
-                [2] = CFrame.new(237.33082580566406, 4.5800018310546875, 3.780231475830078) * CFrame.Angles(-0, 0, -0),
-                [3] = "\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164\227\133\164",
-                [4] = 45528
-            }
-            
-            game:GetService("ReplicatedStorage"):FindFirstChild("Pl\208\176ce"):FireServer(unpack(args)
-
-end
+        game:GetService("ReplicatedStorage"):FindFirstChild("Pl\208\176ce"):FireServer(unpack(args))
